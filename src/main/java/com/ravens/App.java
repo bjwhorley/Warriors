@@ -38,7 +38,7 @@ public class App
             System.out.println("Yes, it's on Espn ");
         System.out.println("And I'm done with this test");
 
-        
+
         driver.get("https://www.nfl.com/");
         driver.quit();
     }
