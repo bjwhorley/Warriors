@@ -7,7 +7,7 @@ public class PassParam {
 
 
         PassParam sendv = new PassParam();
-        int result =sendv.add(4390,4322);
+        int result = sendv.add(4390,4322);
         double sum = sendv.substract(45.132, 2898.123);
         String name = sendv.FullName("Byrn's Birthday is", " August 22nd");
 
@@ -19,7 +19,7 @@ public class PassParam {
     }
 
 
-    public int add(int a, int b){
+    public static int add(int a, int b){
 
         int result = a + b;
 

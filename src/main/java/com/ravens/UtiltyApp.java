@@ -9,7 +9,7 @@ import javafx.stage.Stage;
 
 
     public class UtiltyApp extends Application{
-
+        PassParam pass = new PassParam();
         Button button;
         Button button2;
 
@@ -26,11 +26,12 @@ import javafx.stage.Stage;
             button = new Button();
             button2 = new Button();
 
-            button.setText("Click Here For Warriors");
-            button2.setText("Click Here For Cavs");
+            //button.setText("Click Here For Warriors");
+            button2.setText(String.valueOf(pass.add(456, 3458)));
 
             StackPane layout = new StackPane();
-            layout.getChildren().addAll(button);
+            layout.getChildren().addAll(button2);
+            //layout.getBackground().getImages().add();
 
             Scene scene = new Scene(layout, 350, 300);
             primaryStage.setScene(scene);
