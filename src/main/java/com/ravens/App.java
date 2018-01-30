@@ -35,8 +35,13 @@ public class App
 
         if (status == true)
 
+
+
             System.out.println("Yes, it's on Espn ");
         System.out.println("And I'm done with this test");
+        System.out.println("Need to add to git repo");
+
+
 
 
         driver.get("https://www.nfl.com/");
