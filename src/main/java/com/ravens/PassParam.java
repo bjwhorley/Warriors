@@ -28,7 +28,7 @@ public class PassParam {
     }
 
     public double substract(double a, double b){
-        double c = b -a;
+        double c = b - a;
         return c;
 
     }

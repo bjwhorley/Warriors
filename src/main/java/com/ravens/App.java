@@ -17,8 +17,8 @@ public class App
     public static void main( String[] args ) {
 
         System.setProperty("webdriver.gecko.driver", "/Users/bwhorley/IdeaProjects/selenium/geckodriver");
-        FirefoxOptions options = new FirefoxOptions();
-        options.setHeadless(false);
+        FirefoxOptions options = new FirefoxOptions().setHeadless(true);
+        //options.setHeadless(true);
         WebDriver driver = new FirefoxDriver(options);
 
         driver.get("http://www.espn.com/");
