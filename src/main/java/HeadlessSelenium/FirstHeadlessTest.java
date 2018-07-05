@@ -10,7 +10,7 @@ import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 public  class FirstHeadlessTest {
 
 
-    public  static  void FirstHeadlessTest() {
+    public  static  void firstHeadlessTest() {
 
 
         FirefoxOptions options = new FirefoxOptions();

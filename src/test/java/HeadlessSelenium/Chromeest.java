@@ -1,18 +1,19 @@
 package HeadlessSelenium;
 
-import junit.framework.TestCase;
+
+import org.testng.annotations.Test;
 
 public class Chromeest extends FirstHeadlessTest {
 
-
+@Test
     public static void setUp() throws Exception{
 
         System.out.println("Starting Test ");
     }
-
+@Test
     public static void testOne() throws Exception{
 
-        FirstHeadlessTest();
+        firstHeadlessTest();
         chromeBrowser();
         System.out.println("Testing Underway");
     }
